@@ -77,4 +77,4 @@ tottenham_p <- ggplot(tottenham, aes(x = nb, y = place))+
              ncol=3)
              
  # save plots
-  ggsave("top six.png", plot = top_plot, scale = 1.5)
+  ggsave("top six.png", plot = top_plot, scale = 2)
