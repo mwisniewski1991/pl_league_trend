@@ -1,6 +1,7 @@
 # pl_league_trend
 # R 
-# Code to create plots which show league trend for six best teams in premier league
+# Code to create plots which show league trend for six best teams in premier league.
+# Data from season 1999/2000 in csv file.
 
 # I filter data and create six table for each teams  
 arsenal <- filter(pl, team == 'Arsenal')
